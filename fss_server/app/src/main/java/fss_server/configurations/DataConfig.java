@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import fss_server.file_access.UserData;
 
 @Configuration
-public class dataConfig {
+public class DataConfig {
 
     @Bean
     public UserData userData() {
