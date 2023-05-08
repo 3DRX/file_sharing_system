@@ -4,11 +4,17 @@
 package fss_server;
 
 import org.junit.jupiter.api.Test;
+
+import fss_server.entities.User;
+import fss_server.file_access.userData;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-    @Test void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+    @Test
+    void addUser() {
+        userData userData = new userData();
+        userData.addUser(new User("kjy", "001"));
+        userData.addUser(new User("hsy", "002"));
     }
 }

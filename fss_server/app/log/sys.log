@@ -1,0 +1,98 @@
+2023-05-08 17:34:29,648 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.7 with PID 50477 (/Users/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /Users/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-08 17:34:29,651 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-08 17:34:30,445 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-08 17:34:30,455 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-08 17:34:30,456 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-08 17:34:30,457 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-08 17:34:30,541 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-08 17:34:30,543 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 842 ms
+2023-05-08 17:34:30,885 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-08 17:34:30,907 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-08 17:34:30,917 INFO (StartupInfoLogger.java:57)- Started App in 1.783 seconds (process running for 2.094)
+2023-05-08 17:36:32,388 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 17:36:32,391 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-08 17:36:32,395 INFO (FrameworkServlet.java:547)- Completed initialization in 3 ms
+2023-05-08 17:36:32,524 ERROR (DirectJDKLog.java:175)- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot read the array length because "<local2>" is null] with root cause
+java.lang.NullPointerException: Cannot read the array length because "<local2>" is null
+	at fss_server.controllers.LoginController.validate(LoginController.java:39)
+	at fss_server.controllers.LoginController.login(LoginController.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-08 17:37:05,314 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.7 with PID 50747 (/Users/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /Users/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-08 17:37:05,317 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-08 17:37:06,183 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-08 17:37:06,194 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-08 17:37:06,196 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-08 17:37:06,197 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-08 17:37:06,289 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-08 17:37:06,291 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 925 ms
+2023-05-08 17:37:06,668 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-08 17:37:06,691 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-08 17:37:06,702 INFO (StartupInfoLogger.java:57)- Started App in 1.9 seconds (process running for 2.201)
+2023-05-08 17:37:10,637 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 17:37:10,638 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-08 17:37:10,639 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-08 17:37:10,738 INFO (LoginController.java:33)- User kjy failed to log in.
+2023-05-08 17:43:43,233 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.2 with PID 52426 (/Users/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /Users/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-08 17:43:43,237 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-08 17:43:44,107 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-08 17:43:44,120 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-08 17:43:44,121 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-08 17:43:44,123 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-08 17:43:44,218 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-08 17:43:44,220 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 921 ms
+2023-05-08 17:43:44,544 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-08 17:43:44,567 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-08 17:43:44,576 INFO (StartupInfoLogger.java:57)- Started App in 1.941 seconds (process running for 2.324)
+2023-05-08 17:43:51,042 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 17:43:51,042 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-08 17:43:51,043 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-08 17:43:51,134 INFO (LoginController.java:31)- User kjy logged in.
