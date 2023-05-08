@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import fss_server.entities.User;
 import fss_server.file_access.UserData;
+import jakarta.servlet.http.HttpServletRequest;
 
 @RestController
 @CrossOrigin
@@ -20,18 +21,26 @@ public class LoginController {
     private UserData userData;
 
     @PostMapping("/login")
-    public boolean login(@RequestBody User user) {
+    public boolean login(@RequestBody User user, HttpServletRequest request) {
         boolean success;
         if (user.getName().equals("anonymous")) {
             success = true;
         } else {
             success = validate(user);
         }
+        String ip = request.getRemoteAddr();
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder
+                .append("User ")
+                .append(user.getName())
+                .append(" at ")
+                .append(ip);
         if (success) {
-            logger.info("User " + user.getName() + " logged in.");
+            stringBuilder.append(" logged in.");
         } else {
-            logger.info("User " + user.getName() + " failed to log in.");
+            stringBuilder.append(" failed to log in.");
         }
+        logger.info(stringBuilder.toString());
         return success;
     }
 
