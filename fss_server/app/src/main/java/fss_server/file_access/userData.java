@@ -11,12 +11,12 @@ import com.google.gson.stream.JsonReader;
 
 import fss_server.entities.User;
 
-public class userData {
+public class UserData {
     final private String path = "src/main/resources/users.json";
     final private Gson gson = new GsonBuilder().setPrettyPrinting().create();
     private User[] jsonUsers;
 
-    public userData() {
+    public UserData() {
         this.jsonUsers = readUsers();
     }
 

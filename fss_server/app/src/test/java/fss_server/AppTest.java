@@ -6,14 +6,14 @@ package fss_server;
 import org.junit.jupiter.api.Test;
 
 import fss_server.entities.User;
-import fss_server.file_access.userData;
+import fss_server.file_access.UserData;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
     @Test
     void addUser() {
-        userData userData = new userData();
+        UserData userData = new UserData();
         userData.addUser(new User("kjy", "001"));
         userData.addUser(new User("hsy", "002"));
     }

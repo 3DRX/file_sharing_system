@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import fss_server.entities.User;
-import fss_server.file_access.userData;
+import fss_server.file_access.UserData;
 
 @RestController
 @CrossOrigin
@@ -17,7 +17,7 @@ public class LoginController {
     private final Logger logger = LoggerFactory.getLogger(LoginController.class);
 
     @Autowired
-    private userData userData;
+    private UserData userData;
 
     @PostMapping("/login")
     public boolean login(@RequestBody User user) {

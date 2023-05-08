@@ -96,3 +96,20 @@ java.lang.NullPointerException: Cannot read the array length because "<local2>" 
 2023-05-08 17:43:51,042 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
 2023-05-08 17:43:51,043 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
 2023-05-08 17:43:51,134 INFO (LoginController.java:31)- User kjy logged in.
+2023-05-08 17:52:20,157 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.2 with PID 53316 (/Users/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /Users/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-08 17:52:20,162 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-08 17:52:21,214 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-08 17:52:21,228 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-08 17:52:21,229 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-08 17:52:21,230 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-08 17:52:21,330 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-08 17:52:21,333 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1103 ms
+2023-05-08 17:52:21,739 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-08 17:52:21,764 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-08 17:52:21,772 INFO (StartupInfoLogger.java:57)- Started App in 2.285 seconds (process running for 2.638)
+2023-05-08 17:52:25,813 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 17:52:25,814 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-08 17:52:25,815 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-08 17:52:25,918 INFO (LoginController.java:31)- User kjy logged in.
+2023-05-08 17:52:39,181 INFO (LoginController.java:31)- User anonymous logged in.
+2023-05-08 17:52:55,393 INFO (LoginController.java:33)- User anonym failed to log in.
