@@ -1,21 +1,120 @@
-2023-05-08 17:34:29,648 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.7 with PID 50477 (/Users/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /Users/kjy/Documents/file_sharing_system/fss_server/app)
-2023-05-08 17:34:29,651 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
-2023-05-08 17:34:30,445 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
-2023-05-08 17:34:30,455 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
-2023-05-08 17:34:30,456 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
-2023-05-08 17:34:30,457 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
-2023-05-08 17:34:30,541 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
-2023-05-08 17:34:30,543 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 842 ms
-2023-05-08 17:34:30,885 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
-2023-05-08 17:34:30,907 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
-2023-05-08 17:34:30,917 INFO (StartupInfoLogger.java:57)- Started App in 1.783 seconds (process running for 2.094)
-2023-05-08 17:36:32,388 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-05-08 17:36:32,391 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2023-05-08 17:36:32,395 INFO (FrameworkServlet.java:547)- Completed initialization in 3 ms
-2023-05-08 17:36:32,524 ERROR (DirectJDKLog.java:175)- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot read the array length because "<local2>" is null] with root cause
-java.lang.NullPointerException: Cannot read the array length because "<local2>" is null
-	at fss_server.controllers.LoginController.validate(LoginController.java:39)
-	at fss_server.controllers.LoginController.login(LoginController.java:28)
+2023-05-09 00:36:51,991 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 46033 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:36:51,999 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:36:52,594 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:36:52,600 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:36:52,601 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:36:52,602 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:36:52,655 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:36:52,657 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 622 ms
+2023-05-09 00:36:52,714 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:36:52,907 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:36:52,918 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:36:52,925 INFO (StartupInfoLogger.java:57)- Started App in 1.306 seconds (process running for 1.556)
+2023-05-09 00:38:19,204 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 46339 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:38:19,207 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:38:19,805 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:38:19,811 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:38:19,812 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:38:19,813 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:38:19,866 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:38:19,868 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 620 ms
+2023-05-09 00:38:19,924 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:38:20,122 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:38:20,133 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:38:20,140 INFO (StartupInfoLogger.java:57)- Started App in 1.343 seconds (process running for 1.6)
+2023-05-09 00:38:38,656 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:38:38,657 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:38:38,658 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 00:38:38,686 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /tmp/fss/
+2023-05-09 00:38:46,504 INFO (GetFileController.java:46)- File /tmp/fss/ccc sent.
+2023-05-09 00:39:37,938 INFO (GetFileController.java:46)- File /tmp/fss/ccc sent.
+2023-05-09 00:41:47,294 INFO (GetFileController.java:46)- File /tmp/fss/ccc sent.
+2023-05-09 00:42:05,414 INFO (GetFileController.java:46)- File /tmp/fss/ccc sent.
+2023-05-09 00:42:53,175 INFO (GetFileController.java:46)- File /tmp/fss/ccc sent.
+2023-05-09 00:50:09,369 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 47829 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:50:09,372 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:50:10,071 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:50:10,084 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:50:10,086 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:50:10,086 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:50:10,178 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:50:10,180 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 765 ms
+2023-05-09 00:50:10,251 INFO (Settings.java:27)- Load root path success: /tmp/fss/
+2023-05-09 00:50:10,465 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:50:10,477 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:50:10,483 INFO (StartupInfoLogger.java:57)- Started App in 1.52 seconds (process running for 1.757)
+2023-05-09 00:50:26,802 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:50:26,803 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:50:26,804 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 00:50:26,835 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory aaa
+2023-05-09 00:50:32,352 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory ddd
+2023-05-09 00:50:36,178 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String fss_server.controllers.GetDirController.getDir(java.lang.String,jakarta.servlet.http.HttpServletRequest)]
+2023-05-09 00:50:39,338 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 00:50:49,966 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory aaa
+2023-05-09 00:50:54,248 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory aaaaa
+2023-05-09 00:51:24,501 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 48070 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:51:24,504 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:51:25,150 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:51:25,157 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:51:25,157 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:51:25,158 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:51:25,218 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:51:25,219 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 673 ms
+2023-05-09 00:51:25,277 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:51:25,480 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:51:25,492 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:51:25,499 INFO (StartupInfoLogger.java:57)- Started App in 1.457 seconds (process running for 1.757)
+2023-05-09 00:51:28,249 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:51:28,249 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:51:28,251 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 00:51:28,282 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 00:51:32,061 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String fss_server.controllers.GetDirController.getDir(java.lang.String,jakarta.servlet.http.HttpServletRequest)]
+2023-05-09 00:51:45,022 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //
+2023-05-09 00:51:49,328 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory ./
+2023-05-09 00:52:01,327 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd
+2023-05-09 00:52:05,367 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd/
+2023-05-09 00:52:08,446 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd
+2023-05-09 00:52:12,839 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /dd
+2023-05-09 00:52:15,577 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 00:53:46,915 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 48451 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:53:46,918 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:53:47,636 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:53:47,643 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:53:47,643 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:53:47,644 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:53:47,703 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:53:47,705 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 728 ms
+2023-05-09 00:53:47,763 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:53:47,954 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:53:47,965 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:53:47,973 INFO (StartupInfoLogger.java:57)- Started App in 1.446 seconds (process running for 1.647)
+2023-05-09 00:53:50,957 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:53:50,958 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:53:50,959 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 00:53:50,991 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaa
+2023-05-09 00:53:50,991 ERROR (FileManager.java:31)- User tried to access file as directory
+2023-05-09 00:53:58,135 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 00:55:48,815 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 48795 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:55:48,818 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:55:49,426 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:55:49,433 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:55:49,434 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:55:49,434 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:55:49,490 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:55:49,492 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 634 ms
+2023-05-09 00:55:49,550 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:55:49,743 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:55:49,754 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:55:49,761 INFO (StartupInfoLogger.java:57)- Started App in 1.34 seconds (process running for 1.587)
+2023-05-09 00:55:54,267 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:55:54,267 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:55:54,268 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 00:55:54,312 INFO (GetFileController.java:46)- File /ccc sent.
+2023-05-09 00:56:23,425 ERROR (FileManager.java:59)- Error while reading file /tmp/fss/tmp/fss/ccc
+2023-05-09 00:56:23,426 ERROR (GetFileController.java:41)- Error sending file /tmp/fss/ccc
+2023-05-09 00:56:23,432 ERROR (DirectJDKLog.java:175)- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.io.BufferedInputStream.close()" because "bis" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.io.BufferedInputStream.close()" because "bis" is null
+	at fss_server.controllers.GetFileController.getFile(GetFileController.java:45)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -29,8 +128,8 @@ java.lang.NullPointerException: Cannot read the array length because "<local2>" 
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
@@ -66,118 +165,90 @@ java.lang.NullPointerException: Cannot read the array length because "<local2>" 
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2023-05-08 17:37:05,314 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.7 with PID 50747 (/Users/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /Users/kjy/Documents/file_sharing_system/fss_server/app)
-2023-05-08 17:37:05,317 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
-2023-05-08 17:37:06,183 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
-2023-05-08 17:37:06,194 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
-2023-05-08 17:37:06,196 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
-2023-05-08 17:37:06,197 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
-2023-05-08 17:37:06,289 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
-2023-05-08 17:37:06,291 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 925 ms
-2023-05-08 17:37:06,668 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
-2023-05-08 17:37:06,691 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
-2023-05-08 17:37:06,702 INFO (StartupInfoLogger.java:57)- Started App in 1.9 seconds (process running for 2.201)
-2023-05-08 17:37:10,637 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-05-08 17:37:10,638 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2023-05-08 17:37:10,639 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
-2023-05-08 17:37:10,738 INFO (LoginController.java:33)- User kjy failed to log in.
-2023-05-08 17:43:43,233 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.2 with PID 52426 (/Users/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /Users/kjy/Documents/file_sharing_system/fss_server/app)
-2023-05-08 17:43:43,237 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
-2023-05-08 17:43:44,107 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
-2023-05-08 17:43:44,120 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
-2023-05-08 17:43:44,121 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
-2023-05-08 17:43:44,123 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
-2023-05-08 17:43:44,218 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
-2023-05-08 17:43:44,220 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 921 ms
-2023-05-08 17:43:44,544 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
-2023-05-08 17:43:44,567 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
-2023-05-08 17:43:44,576 INFO (StartupInfoLogger.java:57)- Started App in 1.941 seconds (process running for 2.324)
-2023-05-08 17:43:51,042 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-05-08 17:43:51,042 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2023-05-08 17:43:51,043 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
-2023-05-08 17:43:51,134 INFO (LoginController.java:31)- User kjy logged in.
-2023-05-08 17:52:20,157 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.2 with PID 53316 (/Users/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /Users/kjy/Documents/file_sharing_system/fss_server/app)
-2023-05-08 17:52:20,162 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
-2023-05-08 17:52:21,214 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
-2023-05-08 17:52:21,228 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
-2023-05-08 17:52:21,229 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
-2023-05-08 17:52:21,230 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
-2023-05-08 17:52:21,330 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
-2023-05-08 17:52:21,333 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1103 ms
-2023-05-08 17:52:21,739 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
-2023-05-08 17:52:21,764 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
-2023-05-08 17:52:21,772 INFO (StartupInfoLogger.java:57)- Started App in 2.285 seconds (process running for 2.638)
-2023-05-08 17:52:25,813 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-05-08 17:52:25,814 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2023-05-08 17:52:25,815 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
-2023-05-08 17:52:25,918 INFO (LoginController.java:31)- User kjy logged in.
-2023-05-08 17:52:39,181 INFO (LoginController.java:31)- User anonymous logged in.
-2023-05-08 17:52:55,393 INFO (LoginController.java:33)- User anonym failed to log in.
-2023-05-08 18:14:36,621 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.2 with PID 56414 (/Users/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /Users/kjy/Documents/file_sharing_system/fss_server/app)
-2023-05-08 18:14:36,627 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
-2023-05-08 18:14:37,799 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
-2023-05-08 18:14:37,813 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
-2023-05-08 18:14:37,814 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
-2023-05-08 18:14:37,815 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
-2023-05-08 18:14:37,917 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
-2023-05-08 18:14:37,919 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1228 ms
-2023-05-08 18:14:38,320 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
-2023-05-08 18:14:38,346 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
-2023-05-08 18:14:38,355 INFO (StartupInfoLogger.java:57)- Started App in 2.442 seconds (process running for 2.784)
-2023-05-08 18:14:43,329 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-05-08 18:14:43,330 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2023-05-08 18:14:43,331 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
-2023-05-08 18:14:43,443 INFO (LoginController.java:43)- User anonym at 127.0.0.1 failed to log in.
-2023-05-08 18:14:54,399 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
-2023-05-08 19:04:48,203 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 16292 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
-2023-05-08 19:04:48,206 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
-2023-05-08 19:04:48,794 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
-2023-05-08 19:04:48,801 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
-2023-05-08 19:04:48,802 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
-2023-05-08 19:04:48,802 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
-2023-05-08 19:04:48,859 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
-2023-05-08 19:04:48,860 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 618 ms
-2023-05-08 19:04:49,102 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
-2023-05-08 19:04:49,113 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
-2023-05-08 19:04:49,120 INFO (StartupInfoLogger.java:57)- Started App in 1.274 seconds (process running for 1.488)
-2023-05-08 20:10:07,350 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-05-08 20:10:07,351 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2023-05-08 20:10:07,352 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
-2023-05-08 20:10:07,417 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
-2023-05-08 20:11:48,500 INFO (LoginController.java:43)- User kjy at 10.128.248.129 logged in.
-2023-05-08 20:12:49,544 INFO (LoginController.java:43)- User hsy at 10.128.248.129 logged in.
-2023-05-08 21:12:50,285 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 32044 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
-2023-05-08 21:12:50,297 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
-2023-05-08 21:12:50,896 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
-2023-05-08 21:12:50,903 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
-2023-05-08 21:12:50,904 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
-2023-05-08 21:12:50,904 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
-2023-05-08 21:12:50,962 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
-2023-05-08 21:12:50,963 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 628 ms
-2023-05-08 21:12:51,021 INFO (Settings.java:27)- Load root path success: /tmp/fss
-2023-05-08 21:12:51,214 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
-2023-05-08 21:12:51,225 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
-2023-05-08 21:12:51,232 INFO (StartupInfoLogger.java:57)- Started App in 1.34 seconds (process running for 1.611)
-2023-05-08 21:13:01,728 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-05-08 21:13:01,728 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2023-05-08 21:13:01,729 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
-2023-05-08 21:13:01,757 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
-2023-05-08 21:13:48,211 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /tmp/fss
-2023-05-08 21:14:29,516 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 32389 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
-2023-05-08 21:14:29,518 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
-2023-05-08 21:14:30,086 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
-2023-05-08 21:14:30,093 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
-2023-05-08 21:14:30,094 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
-2023-05-08 21:14:30,095 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
-2023-05-08 21:14:30,154 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
-2023-05-08 21:14:30,156 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 601 ms
-2023-05-08 21:14:30,214 INFO (Settings.java:27)- Load root path success: /tmp/fss
-2023-05-08 21:14:30,407 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
-2023-05-08 21:14:30,418 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
-2023-05-08 21:14:30,425 INFO (StartupInfoLogger.java:57)- Started App in 1.307 seconds (process running for 1.565)
-2023-05-08 21:14:39,564 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-05-08 21:14:39,564 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2023-05-08 21:14:39,565 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
-2023-05-08 21:14:39,593 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /tmp/fss
-2023-05-08 21:14:54,310 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /tmp/fss/ddd
-2023-05-08 21:14:58,139 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /tmp/fss/
+2023-05-09 00:56:56,662 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 49199 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:56:56,664 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:56:57,258 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:56:57,266 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:56:57,266 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:56:57,267 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:56:57,325 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:56:57,326 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 621 ms
+2023-05-09 00:56:57,384 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:56:57,584 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:56:57,595 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:56:57,602 INFO (StartupInfoLogger.java:57)- Started App in 1.342 seconds (process running for 1.596)
+2023-05-09 00:57:02,089 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:57:02,090 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:57:02,090 INFO (FrameworkServlet.java:547)- Completed initialization in 0 ms
+2023-05-09 00:57:02,119 ERROR (FileManager.java:59)- Error while reading file /tmp/fss/tmp/fss/ccc
+2023-05-09 00:57:02,120 WARN (GetFileController.java:32)- File /tmp/fss/ccc not found.
+2023-05-09 00:58:05,934 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 49451 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:58:05,937 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:58:06,523 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:58:06,530 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:58:06,531 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:58:06,531 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:58:06,592 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:58:06,594 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 618 ms
+2023-05-09 00:58:06,652 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:58:06,854 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:58:06,865 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:58:06,872 INFO (StartupInfoLogger.java:57)- Started App in 1.331 seconds (process running for 1.606)
+2023-05-09 00:58:09,317 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:58:09,318 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:58:09,319 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 00:58:09,349 ERROR (FileManager.java:59)- Error while reading file /tmp/fss/tmp/fss/ccc
+2023-05-09 00:58:09,350 WARN (GetFileController.java:32)- File /tmp/fss/ccc not found.
+2023-05-09 00:58:37,047 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 49700 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:58:37,050 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:58:37,743 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:58:37,751 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:58:37,752 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:58:37,752 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:58:37,815 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:58:37,817 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 728 ms
+2023-05-09 00:58:37,879 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:58:38,104 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:58:38,115 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:58:38,122 INFO (StartupInfoLogger.java:57)- Started App in 1.473 seconds (process running for 1.719)
+2023-05-09 00:58:40,668 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:58:40,668 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:58:40,669 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 00:58:40,699 ERROR (FileManager.java:59)- Error while reading file /tmp/fss/tmp/fss/ccc
+2023-05-09 00:58:40,699 WARN (GetFileController.java:32)- File /tmp/fss/ccc not found.
+2023-05-09 00:59:27,202 ERROR (FileManager.java:59)- Error while reading file /tmp/fssccc
+2023-05-09 00:59:27,203 WARN (GetFileController.java:32)- File ccc not found.
+2023-05-09 00:59:37,758 INFO (GetFileController.java:50)- File /ccc sent.
+2023-05-09 00:59:49,017 INFO (GetFileController.java:50)- File /ccc sent.
+2023-05-09 01:04:01,608 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 50465 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 01:04:01,610 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 01:04:02,215 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 01:04:02,222 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 01:04:02,222 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 01:04:02,223 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 01:04:02,290 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 01:04:02,291 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 641 ms
+2023-05-09 01:04:02,354 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 01:04:02,588 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 01:04:02,603 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 01:04:02,611 INFO (StartupInfoLogger.java:57)- Started App in 1.394 seconds (process running for 1.629)
+2023-05-09 01:04:04,695 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 01:04:04,696 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 01:04:04,697 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 01:04:04,729 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 01:04:35,226 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 50739 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 01:04:35,229 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 01:04:35,855 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 01:04:35,862 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 01:04:35,863 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 01:04:35,863 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 01:04:35,922 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 01:04:35,923 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 654 ms
+2023-05-09 01:04:35,985 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 01:04:36,187 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 01:04:36,198 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 01:04:36,204 INFO (StartupInfoLogger.java:57)- Started App in 1.39 seconds (process running for 1.653)
+2023-05-09 01:04:41,627 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 01:04:41,628 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 01:04:41,629 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 01:04:41,661 INFO (GetFileController.java:58)- File /ccc sent.
