@@ -3,20 +3,15 @@ package fss_client;
 import java.util.Scanner;
 
 public class App {
-    public static Scanner scanner;
-    private static final FileManager fileManager = new FileManager();
+    private final static Scanner scanner = new Scanner(System.in);
+    public final static Settings settings = Settings.loadSettings();
+    private final static FileManager fileManager = new FileManager();
 
     public static void main(String[] args) {
-        scanner = new Scanner(System.in);
-
         while (true) {
-            printPrompt();
+            System.out.print("fss_client> ");
             handleCommand(scanner.nextLine());
         }
-    }
-
-    private static void printPrompt() {
-        System.out.print("fss_client> ");
     }
 
     private static void handleCommand(String command) {

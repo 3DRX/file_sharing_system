@@ -538,3 +538,50 @@ java.lang.NullPointerException: Cannot invoke "java.io.BufferedInputStream.close
 2023-05-09 11:48:57,624 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
 2023-05-09 11:48:57,625 WARN (FileManager.java:31)- User tried to access file as directory
 2023-05-09 11:48:57,682 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 12:58:23,382 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.2 with PID 59555 (/Users/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /Users/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 12:58:23,386 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 12:58:24,545 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 12:58:24,560 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 12:58:24,561 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 12:58:24,562 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 12:58:24,661 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 12:58:24,663 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1215 ms
+2023-05-09 12:58:24,756 INFO (Settings.java:22)- Root path does not exist, creating it
+2023-05-09 12:58:24,756 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 12:58:25,064 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 12:58:25,089 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 12:58:25,098 INFO (StartupInfoLogger.java:57)- Started App in 2.394 seconds (process running for 2.757)
+2023-05-09 12:59:05,518 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 12:59:05,519 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 12:59:05,520 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 12:59:05,582 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 12:59:49,191 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:01:54,534 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:01:58,544 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /images
+2023-05-09 13:01:58,545 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 13:02:03,562 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:02:06,565 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges
+2023-05-09 13:02:06,575 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 13:02:09,603 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:39:21,232 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:39:23,922 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /images
+2023-05-09 13:39:23,923 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 13:39:28,940 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges
+2023-05-09 13:39:28,951 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 13:39:33,954 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/img.png
+2023-05-09 13:39:33,955 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 13:39:34,035 INFO (GetFileController.java:58)- File /imges/img.png sent.
+2023-05-09 13:40:32,846 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:40:36,542 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges
+2023-05-09 13:40:36,552 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 13:40:39,551 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/img.png
+2023-05-09 13:40:39,552 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 13:40:39,622 INFO (GetFileController.java:58)- File /imges/img.png sent.
+2023-05-09 13:42:18,024 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:42:21,716 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges
+2023-05-09 13:42:21,725 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 13:42:26,730 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/img.png
+2023-05-09 13:42:26,731 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 13:42:26,799 INFO (GetFileController.java:58)- File /imges/img.png sent.
+2023-05-09 13:42:44,844 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 13:42:46,848 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /

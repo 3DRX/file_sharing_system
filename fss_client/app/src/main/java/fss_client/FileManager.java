@@ -1,9 +1,7 @@
 package fss_client;
 
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URI;
@@ -14,8 +12,8 @@ import java.net.http.HttpResponse;
 
 public class FileManager {
     private String pwd = "/";
-    private final String host = "localhost";
-    private final int port = 8888;
+    private final String host = App.settings.getHost();
+    private final int port = App.settings.getPort();
 
     public FileManager() {
     }
@@ -131,8 +129,7 @@ public class FileManager {
                 .firstValue("Content-Disposition")
                 .get()
                 .split("=")[1];
-        String home = System.getProperty("user.home");
-        File file = new File(home + "/Desktop/" + fileName);
+        File file = new File(App.settings.getRoot() + fileName);
         InputStream is = response.body();
         FileOutputStream fos = null;
         try {
