@@ -608,3 +608,36 @@ java.lang.NullPointerException: Cannot invoke "java.io.BufferedInputStream.close
 2023-05-09 14:34:14,982 WARN (FileManager.java:31)- User tried to access file as directory
 2023-05-09 14:34:15,035 INFO (GetFileController.java:58)- File /imges/img.png sent.
 2023-05-09 14:34:26,013 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 14:44:56,217 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.2 with PID 76647 (/Users/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /Users/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 14:44:56,220 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 14:44:57,276 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 14:44:57,290 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 14:44:57,292 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 14:44:57,292 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 14:44:57,391 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 14:44:57,393 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1114 ms
+2023-05-09 14:44:57,493 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 14:44:57,798 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 14:44:57,822 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 14:44:57,831 INFO (StartupInfoLogger.java:57)- Started App in 2.273 seconds (process running for 2.635)
+2023-05-09 14:45:04,564 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 14:45:04,565 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 14:45:04,566 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 14:45:04,664 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 14:45:08,144 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 14:45:18,181 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges
+2023-05-09 14:45:18,191 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 14:45:24,206 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/img.png
+2023-05-09 14:45:24,207 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 14:45:24,317 INFO (GetFileController.java:58)- File /imges/img.png sent.
+2023-05-09 14:46:04,310 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/img.png
+2023-05-09 14:46:04,312 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 14:46:04,388 INFO (GetFileController.java:58)- File /imges/img.png sent.
+2023-05-09 14:46:28,389 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 14:46:31,394 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /a.md
+2023-05-09 14:46:31,394 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 14:46:31,403 INFO (GetFileController.java:58)- File /a.md sent.
+2023-05-09 14:47:22,547 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges
+2023-05-09 14:47:22,556 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 14:47:27,563 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 14:47:32,579 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /

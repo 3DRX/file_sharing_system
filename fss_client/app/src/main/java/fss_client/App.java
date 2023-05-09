@@ -77,6 +77,7 @@ public class App {
                 return true;
             default:
                 System.out.println("Unknown command: " + commandParts[0]);
+                System.out.println("Type 'help' to see available commands");
                 return true;
         }
         return true;
