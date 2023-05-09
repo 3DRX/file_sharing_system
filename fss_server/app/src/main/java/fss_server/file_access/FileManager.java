@@ -5,6 +5,8 @@ import org.slf4j.LoggerFactory;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.InputStream;
 
 public class FileManager {
     private final Logger logger = LoggerFactory.getLogger(FileManager.class);
@@ -60,5 +62,36 @@ public class FileManager {
             e.printStackTrace();
         }
         return bis;
+    }
+
+    public void put(InputStream is, String newFileName) {
+        File file = new File(this.root + newFileName);
+        if (file.exists()) {
+            logger.warn("Overwriting existing file");
+            return;
+        } else {
+            try {
+                file.createNewFile();
+            } catch (Exception e) {
+                logger.error("Error while creating new file " + newFileName);
+                e.printStackTrace();
+                return;
+            }
+        }
+        FileOutputStream fos = null;
+        try {
+            fos = new FileOutputStream(file);
+            byte[] buffer = new byte[1024];
+            int bytesRead;
+            while ((bytesRead = is.read(buffer)) != -1) {
+                fos.write(buffer, 0, bytesRead);
+            }
+            fos.close();
+            logger.info("Successfully created file " + newFileName);
+        } catch (Exception e) {
+            logger.error("Error while writing file: " + newFileName);
+            e.printStackTrace();
+            return;
+        }
     }
 }

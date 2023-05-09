@@ -641,3 +641,274 @@ java.lang.NullPointerException: Cannot invoke "java.io.BufferedInputStream.close
 2023-05-09 14:47:22,556 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
 2023-05-09 14:47:27,563 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
 2023-05-09 14:47:32,579 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 17:08:07,123 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 6062 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 17:08:07,126 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 17:08:07,713 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 17:08:07,720 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 17:08:07,721 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 17:08:07,721 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 17:08:07,775 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 17:08:07,776 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 612 ms
+2023-05-09 17:08:07,833 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 17:08:08,022 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 17:08:08,033 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 17:08:08,039 INFO (StartupInfoLogger.java:57)- Started App in 1.28 seconds (process running for 1.499)
+2023-05-09 17:54:50,651 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 16213 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 17:54:50,654 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 17:54:51,236 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 17:54:51,243 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 17:54:51,244 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 17:54:51,244 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 17:54:51,301 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 17:54:51,303 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 610 ms
+2023-05-09 17:54:51,360 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 17:54:51,550 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 17:54:51,561 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 17:54:51,567 INFO (StartupInfoLogger.java:57)- Started App in 1.28 seconds (process running for 1.52)
+2023-05-09 17:55:18,007 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 17:55:18,008 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 17:55:18,009 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 17:55:18,067 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 17:55:23,709 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 17:55:59,711 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 18:00:02,018 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 18:04:51,285 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 18:05:06,015 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 18:11:48,571 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 19612 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 18:11:48,575 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 18:11:49,129 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 18:11:49,136 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 18:11:49,137 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 18:11:49,138 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 18:11:49,197 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 18:11:49,198 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 586 ms
+2023-05-09 18:11:49,257 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 18:11:49,448 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 18:11:49,459 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 18:11:49,466 INFO (StartupInfoLogger.java:57)- Started App in 1.255 seconds (process running for 1.433)
+2023-05-09 18:12:02,470 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 18:12:02,471 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 18:12:02,472 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 18:12:02,530 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 18:12:27,814 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 18:12:30,617 INFO (FileManager.java:90)- Successfully created file /BUPT_Map合并版.png
+2023-05-09 18:12:33,573 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 18:12:50,588 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /BUPT_Map合并版.png
+2023-05-09 18:12:50,590 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-09 18:12:50,617 WARN (DirectJDKLog.java:175)- The HTTP response header [Content-Disposition] with value [attachment;filename=BUPT_Map合并版.png] has been removed from the response because it is invalid
+java.lang.IllegalArgumentException: The Unicode character [合] at code point [21,512] cannot be encoded as it is outside the permitted range of 0 to 255
+	at org.apache.tomcat.util.buf.MessageBytes.toBytesSimple(MessageBytes.java:286)
+	at org.apache.tomcat.util.buf.MessageBytes.toBytes(MessageBytes.java:255)
+	at org.apache.coyote.http11.Http11OutputBuffer.write(Http11OutputBuffer.java:394)
+	at org.apache.coyote.http11.Http11OutputBuffer.sendHeader(Http11OutputBuffer.java:372)
+	at org.apache.coyote.http11.Http11Processor.prepareResponse(Http11Processor.java:1066)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:381)
+	at org.apache.coyote.Response.action(Response.java:212)
+	at org.apache.coyote.Response.sendHeaders(Response.java:450)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:288)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:269)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at fss_server.controllers.GetFileController.getFile(GetFileController.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-09 18:12:50,808 INFO (GetFileController.java:58)- File /BUPT_Map合并版.png sent.
+2023-05-09 18:15:55,728 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 18:15:57,498 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 18:16:03,496 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /BUPT_Map合并版.png
+2023-05-09 18:16:03,496 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-09 18:16:03,508 WARN (DirectJDKLog.java:175)- The HTTP response header [Content-Disposition] with value [attachment;filename=BUPT_Map合并版.png] has been removed from the response because it is invalid
+java.lang.IllegalArgumentException: The Unicode character [合] at code point [21,512] cannot be encoded as it is outside the permitted range of 0 to 255
+	at org.apache.tomcat.util.buf.MessageBytes.toBytesSimple(MessageBytes.java:286)
+	at org.apache.tomcat.util.buf.MessageBytes.toBytes(MessageBytes.java:255)
+	at org.apache.coyote.http11.Http11OutputBuffer.write(Http11OutputBuffer.java:394)
+	at org.apache.coyote.http11.Http11OutputBuffer.sendHeader(Http11OutputBuffer.java:372)
+	at org.apache.coyote.http11.Http11Processor.prepareResponse(Http11Processor.java:1066)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:381)
+	at org.apache.coyote.Response.action(Response.java:212)
+	at org.apache.coyote.Response.sendHeaders(Response.java:450)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:288)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:269)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at fss_server.controllers.GetFileController.getFile(GetFileController.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-09 18:16:03,682 INFO (GetFileController.java:58)- File /BUPT_Map合并版.png sent.
+2023-05-09 18:16:13,507 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /res.md
+2023-05-09 18:16:13,507 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-09 18:16:13,520 INFO (GetFileController.java:58)- File /res.md sent.
+2023-05-09 18:17:16,870 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 18:17:19,650 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 18:17:25,651 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /BUPT_Map合并版.png
+2023-05-09 18:17:25,653 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-09 18:17:25,676 WARN (DirectJDKLog.java:175)- The HTTP response header [Content-Disposition] with value [attachment;filename=BUPT_Map合并版.png] has been removed from the response because it is invalid
+java.lang.IllegalArgumentException: The Unicode character [合] at code point [21,512] cannot be encoded as it is outside the permitted range of 0 to 255
+	at org.apache.tomcat.util.buf.MessageBytes.toBytesSimple(MessageBytes.java:286)
+	at org.apache.tomcat.util.buf.MessageBytes.toBytes(MessageBytes.java:255)
+	at org.apache.coyote.http11.Http11OutputBuffer.write(Http11OutputBuffer.java:394)
+	at org.apache.coyote.http11.Http11OutputBuffer.sendHeader(Http11OutputBuffer.java:372)
+	at org.apache.coyote.http11.Http11Processor.prepareResponse(Http11Processor.java:1066)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:381)
+	at org.apache.coyote.Response.action(Response.java:212)
+	at org.apache.coyote.Response.sendHeaders(Response.java:450)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:288)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:269)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at fss_server.controllers.GetFileController.getFile(GetFileController.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-09 18:17:25,844 INFO (GetFileController.java:58)- File /BUPT_Map合并版.png sent.
+2023-05-09 18:17:40,665 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /res.md
+2023-05-09 18:17:40,666 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-09 18:17:40,681 INFO (GetFileController.java:58)- File /res.md sent.
+2023-05-09 18:19:11,667 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 18:19:16,670 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /map.png
+2023-05-09 18:19:16,671 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-09 18:19:16,968 INFO (GetFileController.java:58)- File /map.png sent.
+2023-05-09 18:23:04,284 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 18:24:14,056 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /map.png
+2023-05-09 18:24:14,057 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-09 18:24:14,339 INFO (GetFileController.java:58)- File /map.png sent.

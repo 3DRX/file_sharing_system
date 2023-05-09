@@ -152,10 +152,16 @@ public class FileManager {
             return;
         }
         HttpHeaders header = response.headers();
-        String fileName = header
-                .firstValue("Content-Disposition")
-                .get()
-                .split("=")[1];
+        String fileName = null;
+        try {
+            fileName = header
+                    .firstValue("Content-Disposition")
+                    .get()
+                    .split("=")[1];
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            return;
+        }
         File file = new File(App.settings.getRoot() + fileName);
         InputStream is = response.body();
         FileOutputStream fos = null;
@@ -184,5 +190,59 @@ public class FileManager {
         } catch (Exception e) {
             return false;
         }
+    }
+
+    public void put(String path) {
+        if (App.loggedUser.name().equals("anonymous")) {
+            System.out.println("error: permission denied");
+            return;
+        }
+        File file = new File(path);
+        if (!file.exists()) {
+            System.out.println("error: " + path + " does not exist");
+            return;
+        }
+        if (file.isDirectory()) {
+            System.out.println("error: " + path + " is a directory");
+            return;
+        }
+        putFile(file);
+    }
+
+    private void putFile(File file) {
+        String pathOnServer = pwd + file.getName();
+        System.out.println("uploading " + file.getName() + "to " + pathOnServer + ":");
+        String path = "putFile";
+        HttpClient client = HttpClient.newHttpClient();
+        HttpRequest request = null;
+        try {
+            request = HttpRequest.newBuilder()
+                    .uri(URI.create(
+                            new StringBuilder()
+                                    .append("http://")
+                                    .append(host)
+                                    .append(":")
+                                    .append(port)
+                                    .append("/")
+                                    .append(path)
+                                    .append("?")
+                                    .append("newFileName=")
+                                    .append(pathOnServer)
+                                    .toString()))
+                    .POST(HttpRequest.BodyPublishers.ofFile(file.toPath()))
+                    .build();
+        } catch (Exception e) {
+            System.out.println("error: " + e.getMessage());
+            return;
+        }
+        HttpResponse<String> response = null;
+        try {
+            response = client.send(request,
+                    HttpResponse.BodyHandlers.ofString());
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            return;
+        }
+        System.out.println(response.body());
     }
 }

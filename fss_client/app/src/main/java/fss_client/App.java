@@ -24,6 +24,10 @@ public class App {
     private static boolean login() {
         System.out.print("Enter username: ");
         String username = scanner.nextLine();
+        if (username.equals("anonymous")) {
+            loggedUser = new User(username, "");
+            return true;
+        }
         System.out.print("Enter password: ");
         String password = scanner.nextLine();
         User user = new User(username, password);
@@ -74,6 +78,13 @@ public class App {
                     break;
                 }
                 fileManager.get(commandParts[1]);
+                return true;
+            case "put":
+                if (commandParts.length < 2) {
+                    System.out.println("Usage: put <file>");
+                    break;
+                }
+                fileManager.put(commandParts[1]);
                 return true;
             default:
                 System.out.println("Unknown command: " + commandParts[0]);
