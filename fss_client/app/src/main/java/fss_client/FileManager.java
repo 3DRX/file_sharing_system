@@ -10,12 +10,38 @@ import java.net.http.HttpHeaders;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
+import com.google.gson.GsonBuilder;
+
 public class FileManager {
     private String pwd = "/";
     private final String host = App.settings.getHost();
     private final int port = App.settings.getPort();
 
     public FileManager() {
+    }
+
+    // login
+    public boolean login(User user) {
+        String path = "/login";
+        HttpClient client = HttpClient.newHttpClient();
+        HttpRequest request = HttpRequest
+                .newBuilder()
+                .uri(URI.create("http://" + host + ":" + port + path))
+                .POST(HttpRequest.BodyPublishers
+                        .ofString(new GsonBuilder()
+                                .setPrettyPrinting()
+                                .create()
+                                .toJson(user)))
+                .setHeader("Content-Type", "application/json")
+                .build();
+        try {
+            HttpResponse<String> response = client.send(request,
+                    HttpResponse.BodyHandlers.ofString());
+            return response.body().equals("true");
+        } catch (Exception e) {
+            System.out.println("Server is not responding");
+        }
+        return false;
     }
 
     public void dir() {
@@ -29,7 +55,8 @@ public class FileManager {
         System.out.println(res);
     }
 
-    public String getDir(String filePath) throws InterruptedException, IOException {
+    public String getDir(String filePath)
+            throws InterruptedException, IOException {
         String path = "/getDir";
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()

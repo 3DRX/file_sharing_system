@@ -585,3 +585,26 @@ java.lang.NullPointerException: Cannot invoke "java.io.BufferedInputStream.close
 2023-05-09 13:42:26,799 INFO (GetFileController.java:58)- File /imges/img.png sent.
 2023-05-09 13:42:44,844 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
 2023-05-09 13:42:46,848 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:59:04,055 INFO (LoginController.java:43)- User hsy at 0:0:0:0:0:0:0:1 logged in.
+2023-05-09 14:06:35,218 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/octet-stream' is not supported]
+2023-05-09 14:11:22,462 INFO (LoginController.java:43)- User hsy at 0:0:0:0:0:0:0:1 logged in.
+2023-05-09 14:11:26,546 INFO (LoginController.java:43)- User hsy at 0:0:0:0:0:0:0:1 failed to log in.
+2023-05-09 14:11:29,968 INFO (LoginController.java:43)- User hsy at 0:0:0:0:0:0:0:1 logged in.
+2023-05-09 14:12:29,660 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/octet-stream' is not supported]
+2023-05-09 14:12:33,265 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/octet-stream' is not supported]
+2023-05-09 14:12:50,306 INFO (LoginController.java:43)- User hsy at 0:0:0:0:0:0:0:1 logged in.
+2023-05-09 14:16:06,582 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 14:23:45,138 INFO (LoginController.java:43)- User asdasd at 127.0.0.1 failed to log in.
+2023-05-09 14:23:49,731 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 14:31:57,978 INFO (LoginController.java:43)- User clear at 127.0.0.1 failed to log in.
+2023-05-09 14:32:05,596 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 14:33:33,853 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 14:33:36,863 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges
+2023-05-09 14:33:36,873 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 14:33:50,909 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/img.png
+2023-05-09 14:33:50,909 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 14:33:50,971 INFO (GetFileController.java:58)- File /imges/img.png sent.
+2023-05-09 14:34:14,981 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/img.png
+2023-05-09 14:34:14,982 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 14:34:15,035 INFO (GetFileController.java:58)- File /imges/img.png sent.
+2023-05-09 14:34:26,013 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
