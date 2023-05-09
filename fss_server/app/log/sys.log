@@ -418,3 +418,123 @@ java.lang.NullPointerException: Cannot invoke "java.io.BufferedInputStream.close
 2023-05-09 10:42:09,459 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd/
 2023-05-09 10:42:11,459 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
 2023-05-09 10:42:13,460 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:54:41,317 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:55:10,596 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:55:19,288 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:56:03,445 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:56:28,904 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaa
+2023-05-09 10:56:28,905 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 10:56:35,589 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaaa
+2023-05-09 10:56:35,589 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:58:29,905 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaaaaaaaaaaaaaaaaaa
+2023-05-09 10:58:29,911 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:58:44,655 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaa
+2023-05-09 10:58:44,656 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 10:59:25,567 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:02:21,331 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 11:03:45,714 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 87972 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 11:03:45,717 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 11:03:46,296 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 11:03:46,303 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 11:03:46,304 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 11:03:46,304 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 11:03:46,361 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 11:03:46,362 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 607 ms
+2023-05-09 11:03:46,420 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 11:03:46,606 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 11:03:46,617 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 11:03:46,624 INFO (StartupInfoLogger.java:57)- Started App in 1.27 seconds (process running for 1.478)
+2023-05-09 11:03:51,130 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 11:03:51,131 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 11:03:51,131 INFO (FrameworkServlet.java:547)- Completed initialization in 0 ms
+2023-05-09 11:03:51,161 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 11:03:55,083 ERROR (FileManager.java:59)- Error while reading file /tmp/fss/cccd
+2023-05-09 11:03:55,085 WARN (GetFileController.java:32)- File /cccd not found.
+2023-05-09 11:12:47,800 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:12:50,476 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaa
+2023-05-09 11:12:50,477 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:13:11,517 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaa
+2023-05-09 11:13:11,517 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:15:16,536 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaa
+2023-05-09 11:15:16,536 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:15:56,030 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaa
+2023-05-09 11:15:56,031 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:15:56,049 INFO (GetFileController.java:58)- File /aaa sent.
+2023-05-09 11:16:09,395 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 11:16:15,701 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ccc
+2023-05-09 11:16:15,702 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:16:15,719 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 11:16:46,816 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ccc
+2023-05-09 11:16:46,816 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:16:46,833 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 11:17:31,114 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 11:18:37,629 INFO (GetFileController.java:58)- File /a.png sent.
+2023-05-09 11:18:43,069 INFO (GetFileController.java:58)- File /a.png sent.
+2023-05-09 11:19:01,455 INFO (GetFileController.java:58)- File /a.png sent.
+2023-05-09 11:31:39,423 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 5222 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 11:31:39,429 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 11:31:41,417 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 11:31:41,444 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 11:31:41,448 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 11:31:41,450 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 11:31:41,687 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 11:31:41,692 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 2178 ms
+2023-05-09 11:31:41,890 INFO (Settings.java:22)- Root path does not exist, creating it
+2023-05-09 11:31:41,891 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 11:31:42,573 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 11:31:42,619 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 11:31:42,654 INFO (StartupInfoLogger.java:57)- Started App in 4.102 seconds (process running for 4.617)
+2023-05-09 11:35:00,899 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 11:35:00,899 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 11:35:00,900 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 11:35:00,925 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:35:03,622 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:35:06,622 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:36:52,640 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:36:56,644 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir
+2023-05-09 11:36:56,662 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:36:59,645 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:37:04,651 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:37:04,651 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:37:04,687 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 11:38:01,016 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:38:01,017 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:38:01,046 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 11:41:34,002 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:41:44,719 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir
+2023-05-09 11:41:44,739 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:41:45,719 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:41:48,711 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:41:48,711 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:41:48,731 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 11:43:19,897 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:43:22,642 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir
+2023-05-09 11:43:22,660 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:43:26,641 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:43:26,642 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:43:26,700 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 11:44:57,502 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:45:02,246 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir
+2023-05-09 11:45:02,266 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:45:06,246 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:45:06,248 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:45:06,302 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 11:46:17,326 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:46:21,046 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir
+2023-05-09 11:46:21,063 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:46:25,039 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:46:25,039 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:46:25,058 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 11:47:15,259 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:47:16,992 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir
+2023-05-09 11:47:17,009 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:47:17,991 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:47:22,993 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:47:22,994 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:47:23,072 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 11:48:52,895 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:48:54,624 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir
+2023-05-09 11:48:54,642 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:48:57,624 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:48:57,625 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:48:57,682 INFO (GetFileController.java:58)- File /subdir/a.png sent.

@@ -45,6 +45,13 @@ public class App {
                 }
                 fileManager.cd(commandParts[1]);
                 break;
+            case "get":
+                if (commandParts.length < 2) {
+                    System.out.println("Usage: get <file>");
+                    break;
+                }
+                fileManager.get(commandParts[1]);
+                break;
             default:
                 System.out.println("Unknown command: " + commandParts[0]);
                 break;
@@ -58,6 +65,7 @@ public class App {
         System.out.println("\texit - exit the program");
         System.out.println("\tdir, ls, l, ll - list files in the current directory");
         System.out.println("\tpwd - present working directory");
+        System.out.println("\tget - get a file from server");
         System.out.println("\tcd <path> - change directory");
     }
 }
