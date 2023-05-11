@@ -24,16 +24,20 @@ public class App {
     private static boolean login() {
         System.out.print("Enter username: ");
         String username = scanner.nextLine();
+        User user = null;
+        String password = null;
         if (username.equals("anonymous")) {
-            loggedUser = new User(username, "");
-            return true;
+            password = "";
+        } else {
+            System.out.print("Enter password: ");
+            password = scanner.nextLine();
         }
-        System.out.print("Enter password: ");
-        String password = scanner.nextLine();
-        User user = new User(username, password);
-        if (fileManager.login(user)) {
+        user = new User(username, password);
+        if (fileManager.login(user)
+                || (username.equals("anonymous")
+                        && password.equals(""))) {
             System.out.println("Login successful");
-            loggedUser = new User(username, password);
+            loggedUser = user;
             return true;
         } else {
             System.out.println("Login failed");
