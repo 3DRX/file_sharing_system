@@ -13,8 +13,8 @@ public class FileManager {
 
     private String root;
 
-    public FileManager(String root) {
-        this.root = root;
+    public FileManager(File root) {
+        this.root = root.getAbsolutePath() + File.separator;
     }
 
     public String dir(String pwd) {

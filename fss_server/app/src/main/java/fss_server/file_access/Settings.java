@@ -12,6 +12,7 @@ import com.google.gson.stream.JsonReader;
 public class Settings {
     final private String path = "src/main/resources/settings.json";
     private settingsRecord settings;
+    private File root;
     private final Logger logger = LoggerFactory.getLogger(Settings.class);
 
     public Settings() {
@@ -24,6 +25,7 @@ public class Settings {
             logger.error("Root path is not a directory, exit program");
             System.exit(1);
         }
+        this.root = folder;
         logger.info("Load root path success: " + this.settings.root());
     }
 
@@ -38,8 +40,8 @@ public class Settings {
         return res;
     }
 
-    public String getRoot() {
-        return this.settings.root();
+    public File getRoot() {
+        return this.root;
     }
 }
 

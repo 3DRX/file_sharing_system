@@ -3,6 +3,7 @@ package fss_client;
 import java.io.File;
 import java.io.FileReader;
 
+import com.google.common.net.InetAddresses;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 
@@ -53,13 +54,22 @@ public class Settings {
                 if (res.server == null) {
                     res.server = new ServerConfig("localhost", 8888);
                 }
-                if (res.root.charAt(res.root.length() - 1) != '/')
-                    res.root += "/";
+                if (res.root.charAt(res.root.length() - 1) != File.separatorChar)
+                    res.root += File.separator;
             }
             // check if root exists
             File root = new File(res.getRoot());
             if (!root.exists()) {
+                System.out.println("Root path does not exist, creating it");
                 root.mkdirs();
+            }
+            if (!InetAddresses.isInetAddress(res.getHost())) {
+                System.out.println("Host is not a valid IP address, using localhost");
+                res.server = new ServerConfig("localhost", res.getPort());
+            }
+            if (res.getPort() < 1024 || res.getPort() > 65535) {
+                System.out.println("Port is not in range [1024, 65535], using 8888");
+                res.server = new ServerConfig(res.getHost(), 8888);
             }
             System.out.println("Settings loaded:");
             System.out.println("Root: " + res.getRoot());

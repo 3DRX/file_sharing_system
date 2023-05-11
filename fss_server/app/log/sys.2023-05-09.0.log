@@ -1,0 +1,914 @@
+2023-05-09 00:36:51,991 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 46033 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:36:51,999 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:36:52,594 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:36:52,600 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:36:52,601 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:36:52,602 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:36:52,655 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:36:52,657 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 622 ms
+2023-05-09 00:36:52,714 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:36:52,907 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:36:52,918 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:36:52,925 INFO (StartupInfoLogger.java:57)- Started App in 1.306 seconds (process running for 1.556)
+2023-05-09 00:38:19,204 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 46339 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:38:19,207 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:38:19,805 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:38:19,811 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:38:19,812 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:38:19,813 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:38:19,866 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:38:19,868 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 620 ms
+2023-05-09 00:38:19,924 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:38:20,122 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:38:20,133 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:38:20,140 INFO (StartupInfoLogger.java:57)- Started App in 1.343 seconds (process running for 1.6)
+2023-05-09 00:38:38,656 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:38:38,657 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:38:38,658 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 00:38:38,686 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /tmp/fss/
+2023-05-09 00:38:46,504 INFO (GetFileController.java:46)- File /tmp/fss/ccc sent.
+2023-05-09 00:39:37,938 INFO (GetFileController.java:46)- File /tmp/fss/ccc sent.
+2023-05-09 00:41:47,294 INFO (GetFileController.java:46)- File /tmp/fss/ccc sent.
+2023-05-09 00:42:05,414 INFO (GetFileController.java:46)- File /tmp/fss/ccc sent.
+2023-05-09 00:42:53,175 INFO (GetFileController.java:46)- File /tmp/fss/ccc sent.
+2023-05-09 00:50:09,369 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 47829 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:50:09,372 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:50:10,071 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:50:10,084 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:50:10,086 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:50:10,086 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:50:10,178 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:50:10,180 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 765 ms
+2023-05-09 00:50:10,251 INFO (Settings.java:27)- Load root path success: /tmp/fss/
+2023-05-09 00:50:10,465 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:50:10,477 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:50:10,483 INFO (StartupInfoLogger.java:57)- Started App in 1.52 seconds (process running for 1.757)
+2023-05-09 00:50:26,802 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:50:26,803 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:50:26,804 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 00:50:26,835 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory aaa
+2023-05-09 00:50:32,352 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory ddd
+2023-05-09 00:50:36,178 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String fss_server.controllers.GetDirController.getDir(java.lang.String,jakarta.servlet.http.HttpServletRequest)]
+2023-05-09 00:50:39,338 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 00:50:49,966 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory aaa
+2023-05-09 00:50:54,248 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory aaaaa
+2023-05-09 00:51:24,501 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 48070 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:51:24,504 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:51:25,150 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:51:25,157 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:51:25,157 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:51:25,158 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:51:25,218 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:51:25,219 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 673 ms
+2023-05-09 00:51:25,277 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:51:25,480 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:51:25,492 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:51:25,499 INFO (StartupInfoLogger.java:57)- Started App in 1.457 seconds (process running for 1.757)
+2023-05-09 00:51:28,249 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:51:28,249 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:51:28,251 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 00:51:28,282 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 00:51:32,061 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String fss_server.controllers.GetDirController.getDir(java.lang.String,jakarta.servlet.http.HttpServletRequest)]
+2023-05-09 00:51:45,022 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //
+2023-05-09 00:51:49,328 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory ./
+2023-05-09 00:52:01,327 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd
+2023-05-09 00:52:05,367 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd/
+2023-05-09 00:52:08,446 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd
+2023-05-09 00:52:12,839 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /dd
+2023-05-09 00:52:15,577 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 00:53:46,915 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 48451 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:53:46,918 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:53:47,636 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:53:47,643 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:53:47,643 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:53:47,644 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:53:47,703 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:53:47,705 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 728 ms
+2023-05-09 00:53:47,763 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:53:47,954 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:53:47,965 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:53:47,973 INFO (StartupInfoLogger.java:57)- Started App in 1.446 seconds (process running for 1.647)
+2023-05-09 00:53:50,957 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:53:50,958 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:53:50,959 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 00:53:50,991 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaa
+2023-05-09 00:53:50,991 ERROR (FileManager.java:31)- User tried to access file as directory
+2023-05-09 00:53:58,135 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 00:55:48,815 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 48795 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:55:48,818 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:55:49,426 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:55:49,433 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:55:49,434 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:55:49,434 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:55:49,490 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:55:49,492 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 634 ms
+2023-05-09 00:55:49,550 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:55:49,743 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:55:49,754 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:55:49,761 INFO (StartupInfoLogger.java:57)- Started App in 1.34 seconds (process running for 1.587)
+2023-05-09 00:55:54,267 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:55:54,267 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:55:54,268 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 00:55:54,312 INFO (GetFileController.java:46)- File /ccc sent.
+2023-05-09 00:56:23,425 ERROR (FileManager.java:59)- Error while reading file /tmp/fss/tmp/fss/ccc
+2023-05-09 00:56:23,426 ERROR (GetFileController.java:41)- Error sending file /tmp/fss/ccc
+2023-05-09 00:56:23,432 ERROR (DirectJDKLog.java:175)- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.io.BufferedInputStream.close()" because "bis" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.io.BufferedInputStream.close()" because "bis" is null
+	at fss_server.controllers.GetFileController.getFile(GetFileController.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-09 00:56:56,662 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 49199 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:56:56,664 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:56:57,258 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:56:57,266 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:56:57,266 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:56:57,267 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:56:57,325 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:56:57,326 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 621 ms
+2023-05-09 00:56:57,384 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:56:57,584 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:56:57,595 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:56:57,602 INFO (StartupInfoLogger.java:57)- Started App in 1.342 seconds (process running for 1.596)
+2023-05-09 00:57:02,089 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:57:02,090 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:57:02,090 INFO (FrameworkServlet.java:547)- Completed initialization in 0 ms
+2023-05-09 00:57:02,119 ERROR (FileManager.java:59)- Error while reading file /tmp/fss/tmp/fss/ccc
+2023-05-09 00:57:02,120 WARN (GetFileController.java:32)- File /tmp/fss/ccc not found.
+2023-05-09 00:58:05,934 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 49451 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:58:05,937 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:58:06,523 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:58:06,530 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:58:06,531 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:58:06,531 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:58:06,592 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:58:06,594 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 618 ms
+2023-05-09 00:58:06,652 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:58:06,854 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:58:06,865 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:58:06,872 INFO (StartupInfoLogger.java:57)- Started App in 1.331 seconds (process running for 1.606)
+2023-05-09 00:58:09,317 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:58:09,318 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:58:09,319 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 00:58:09,349 ERROR (FileManager.java:59)- Error while reading file /tmp/fss/tmp/fss/ccc
+2023-05-09 00:58:09,350 WARN (GetFileController.java:32)- File /tmp/fss/ccc not found.
+2023-05-09 00:58:37,047 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 49700 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 00:58:37,050 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 00:58:37,743 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 00:58:37,751 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:58:37,752 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 00:58:37,752 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 00:58:37,815 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 00:58:37,817 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 728 ms
+2023-05-09 00:58:37,879 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 00:58:38,104 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 00:58:38,115 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 00:58:38,122 INFO (StartupInfoLogger.java:57)- Started App in 1.473 seconds (process running for 1.719)
+2023-05-09 00:58:40,668 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 00:58:40,668 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 00:58:40,669 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 00:58:40,699 ERROR (FileManager.java:59)- Error while reading file /tmp/fss/tmp/fss/ccc
+2023-05-09 00:58:40,699 WARN (GetFileController.java:32)- File /tmp/fss/ccc not found.
+2023-05-09 00:59:27,202 ERROR (FileManager.java:59)- Error while reading file /tmp/fssccc
+2023-05-09 00:59:27,203 WARN (GetFileController.java:32)- File ccc not found.
+2023-05-09 00:59:37,758 INFO (GetFileController.java:50)- File /ccc sent.
+2023-05-09 00:59:49,017 INFO (GetFileController.java:50)- File /ccc sent.
+2023-05-09 01:04:01,608 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 50465 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 01:04:01,610 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 01:04:02,215 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 01:04:02,222 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 01:04:02,222 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 01:04:02,223 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 01:04:02,290 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 01:04:02,291 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 641 ms
+2023-05-09 01:04:02,354 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 01:04:02,588 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 01:04:02,603 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 01:04:02,611 INFO (StartupInfoLogger.java:57)- Started App in 1.394 seconds (process running for 1.629)
+2023-05-09 01:04:04,695 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 01:04:04,696 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 01:04:04,697 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 01:04:04,729 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 01:04:35,226 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 50739 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 01:04:35,229 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 01:04:35,855 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 01:04:35,862 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 01:04:35,863 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 01:04:35,863 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 01:04:35,922 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 01:04:35,923 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 654 ms
+2023-05-09 01:04:35,985 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 01:04:36,187 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 01:04:36,198 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 01:04:36,204 INFO (StartupInfoLogger.java:57)- Started App in 1.39 seconds (process running for 1.653)
+2023-05-09 01:04:41,627 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 01:04:41,628 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 01:04:41,629 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 01:04:41,661 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 09:22:03,293 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 65734 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 09:22:03,296 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 09:22:03,899 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 09:22:03,907 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 09:22:03,907 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 09:22:03,908 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 09:22:03,964 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 09:22:03,965 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 629 ms
+2023-05-09 09:22:04,021 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 09:22:04,207 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 09:22:04,218 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 09:22:04,225 INFO (StartupInfoLogger.java:57)- Started App in 1.284 seconds (process running for 1.483)
+2023-05-09 09:22:07,978 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 09:22:07,978 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 09:22:07,979 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 09:22:07,992 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-05-09 09:24:43,726 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-05-09 09:27:40,314 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-05-09 09:28:15,545 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 09:29:33,638 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-05-09 09:32:02,349 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-05-09 09:35:03,788 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-05-09 09:40:08,699 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-05-09 09:40:57,449 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-05-09 09:48:14,673 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 70409 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 09:48:14,676 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 09:48:15,266 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 09:48:15,273 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 09:48:15,274 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 09:48:15,274 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 09:48:15,332 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 09:48:15,334 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 620 ms
+2023-05-09 09:48:15,391 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 09:48:15,587 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 09:48:15,598 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 09:48:15,605 INFO (StartupInfoLogger.java:57)- Started App in 1.289 seconds (process running for 1.501)
+2023-05-09 09:48:19,245 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 09:48:19,246 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 09:48:19,247 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 09:48:19,259 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-05-09 09:48:26,180 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-05-09 09:49:06,119 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 09:50:42,573 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-05-09 09:52:36,530 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-05-09 09:57:12,168 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 09:57:14,332 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 09:57:22,731 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 73412 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 09:57:22,738 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 09:57:24,342 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 09:57:24,358 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 09:57:24,359 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 09:57:24,360 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 09:57:24,477 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 09:57:24,480 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1636 ms
+2023-05-09 09:57:24,605 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 09:57:24,972 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 09:57:24,995 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 09:57:25,008 INFO (StartupInfoLogger.java:57)- Started App in 3.51 seconds (process running for 4.242)
+2023-05-09 09:57:27,032 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 09:57:27,032 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 09:57:27,033 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 09:57:27,050 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-05-09 09:57:35,624 INFO (GetDirController.java:25)- User at 127.0.0.1 requested directory /
+2023-05-09 09:57:48,116 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String fss_server.controllers.GetDirController.getDir(java.lang.String,jakarta.servlet.http.HttpServletRequest)]
+2023-05-09 10:00:22,138 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 74299 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 10:00:22,140 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 10:00:22,751 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 10:00:22,758 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 10:00:22,759 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 10:00:22,759 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 10:00:22,820 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 10:00:22,821 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 645 ms
+2023-05-09 10:00:22,880 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 10:00:23,080 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 10:00:23,093 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 10:00:23,105 INFO (StartupInfoLogger.java:57)- Started App in 1.383 seconds (process running for 1.626)
+2023-05-09 10:00:27,274 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 10:00:27,275 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 10:00:27,275 INFO (FrameworkServlet.java:547)- Completed initialization in 0 ms
+2023-05-09 10:00:27,307 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:00:32,824 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd
+2023-05-09 10:00:36,440 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:06:49,232 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 76098 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 10:06:49,234 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 10:06:49,893 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 10:06:49,900 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 10:06:49,901 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 10:06:49,901 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 10:06:49,968 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 10:06:49,970 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 697 ms
+2023-05-09 10:06:50,032 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 10:06:50,233 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 10:06:50,244 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 10:06:50,251 INFO (StartupInfoLogger.java:57)- Started App in 1.457 seconds (process running for 1.719)
+2023-05-09 10:08:12,373 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 10:08:12,373 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 10:08:12,374 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 10:08:12,399 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:13:44,051 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:13:46,790 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:18:35,796 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:18:41,521 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:18:57,526 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:19:00,526 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:20:24,848 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory asdasd
+2023-05-09 10:20:24,849 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:29:41,151 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:29:43,909 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //ddd
+2023-05-09 10:29:45,915 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //ddd
+2023-05-09 10:29:49,912 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:30:31,044 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:30:35,788 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //ddd
+2023-05-09 10:30:35,806 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //ddd
+2023-05-09 10:30:38,789 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:30:41,789 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //aaa
+2023-05-09 10:30:41,791 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 10:30:41,813 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //aaa
+2023-05-09 10:30:41,814 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 10:30:43,789 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //aaa
+2023-05-09 10:30:43,790 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 10:30:45,793 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:32:21,155 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:32:23,881 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //aaaaa
+2023-05-09 10:32:23,882 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:32:23,901 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //aaaaa
+2023-05-09 10:32:23,902 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:32:26,881 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //aaaaa
+2023-05-09 10:32:26,882 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:32:29,882 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:34:01,003 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //aaaaaaaaaaaaa
+2023-05-09 10:34:01,003 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:34:01,021 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //aaaaaaaaaaaaa
+2023-05-09 10:34:01,021 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:34:03,758 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //aaaaaaaaaaaaa
+2023-05-09 10:34:03,759 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:34:16,872 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //aaaaaaaaaaaaaaaa
+2023-05-09 10:34:16,872 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:34:18,632 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:34:54,423 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //aaaaaaaaaa
+2023-05-09 10:34:54,423 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:34:58,162 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory //aaaaaaaa
+2023-05-09 10:34:58,163 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:38:17,050 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaaaaaaaaaaa
+2023-05-09 10:38:17,050 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:38:25,782 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd
+2023-05-09 10:38:25,800 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd/
+2023-05-09 10:38:28,783 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd/
+2023-05-09 10:38:55,785 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:39:25,668 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:39:29,397 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:39:32,404 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd
+2023-05-09 10:39:32,423 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd/
+2023-05-09 10:39:33,403 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd/
+2023-05-09 10:39:36,404 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd/
+2023-05-09 10:39:37,404 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd/
+2023-05-09 10:39:40,409 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd/
+2023-05-09 10:41:12,700 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:41:14,454 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd
+2023-05-09 10:41:14,471 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd/
+2023-05-09 10:41:17,455 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd/
+2023-05-09 10:42:05,715 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:42:08,459 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd
+2023-05-09 10:42:08,477 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd/
+2023-05-09 10:42:09,459 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ddd/
+2023-05-09 10:42:11,459 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:42:13,460 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:54:41,317 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:55:10,596 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:55:19,288 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:56:03,445 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 10:56:28,904 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaa
+2023-05-09 10:56:28,905 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 10:56:35,589 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaaa
+2023-05-09 10:56:35,589 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:58:29,905 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaaaaaaaaaaaaaaaaaa
+2023-05-09 10:58:29,911 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 10:58:44,655 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaa
+2023-05-09 10:58:44,656 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 10:59:25,567 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:02:21,331 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 11:03:45,714 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 87972 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 11:03:45,717 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 11:03:46,296 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 11:03:46,303 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 11:03:46,304 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 11:03:46,304 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 11:03:46,361 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 11:03:46,362 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 607 ms
+2023-05-09 11:03:46,420 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 11:03:46,606 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 11:03:46,617 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 11:03:46,624 INFO (StartupInfoLogger.java:57)- Started App in 1.27 seconds (process running for 1.478)
+2023-05-09 11:03:51,130 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 11:03:51,131 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 11:03:51,131 INFO (FrameworkServlet.java:547)- Completed initialization in 0 ms
+2023-05-09 11:03:51,161 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 11:03:55,083 ERROR (FileManager.java:59)- Error while reading file /tmp/fss/cccd
+2023-05-09 11:03:55,085 WARN (GetFileController.java:32)- File /cccd not found.
+2023-05-09 11:12:47,800 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:12:50,476 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaa
+2023-05-09 11:12:50,477 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:13:11,517 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaa
+2023-05-09 11:13:11,517 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:15:16,536 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaa
+2023-05-09 11:15:16,536 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:15:56,030 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /aaa
+2023-05-09 11:15:56,031 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:15:56,049 INFO (GetFileController.java:58)- File /aaa sent.
+2023-05-09 11:16:09,395 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 11:16:15,701 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ccc
+2023-05-09 11:16:15,702 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:16:15,719 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 11:16:46,816 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /ccc
+2023-05-09 11:16:46,816 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:16:46,833 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 11:17:31,114 INFO (GetFileController.java:58)- File /ccc sent.
+2023-05-09 11:18:37,629 INFO (GetFileController.java:58)- File /a.png sent.
+2023-05-09 11:18:43,069 INFO (GetFileController.java:58)- File /a.png sent.
+2023-05-09 11:19:01,455 INFO (GetFileController.java:58)- File /a.png sent.
+2023-05-09 11:31:39,423 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 5222 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 11:31:39,429 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 11:31:41,417 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 11:31:41,444 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 11:31:41,448 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 11:31:41,450 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 11:31:41,687 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 11:31:41,692 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 2178 ms
+2023-05-09 11:31:41,890 INFO (Settings.java:22)- Root path does not exist, creating it
+2023-05-09 11:31:41,891 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 11:31:42,573 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 11:31:42,619 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 11:31:42,654 INFO (StartupInfoLogger.java:57)- Started App in 4.102 seconds (process running for 4.617)
+2023-05-09 11:35:00,899 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 11:35:00,899 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 11:35:00,900 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 11:35:00,925 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:35:03,622 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:35:06,622 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:36:52,640 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:36:56,644 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir
+2023-05-09 11:36:56,662 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:36:59,645 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:37:04,651 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:37:04,651 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:37:04,687 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 11:38:01,016 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:38:01,017 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:38:01,046 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 11:41:34,002 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:41:44,719 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir
+2023-05-09 11:41:44,739 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:41:45,719 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:41:48,711 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:41:48,711 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:41:48,731 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 11:43:19,897 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:43:22,642 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir
+2023-05-09 11:43:22,660 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:43:26,641 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:43:26,642 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:43:26,700 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 11:44:57,502 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:45:02,246 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir
+2023-05-09 11:45:02,266 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:45:06,246 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:45:06,248 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:45:06,302 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 11:46:17,326 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:46:21,046 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir
+2023-05-09 11:46:21,063 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:46:25,039 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:46:25,039 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:46:25,058 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 11:47:15,259 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:47:16,992 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir
+2023-05-09 11:47:17,009 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:47:17,991 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:47:22,993 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:47:22,994 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:47:23,072 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 11:48:52,895 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 11:48:54,624 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir
+2023-05-09 11:48:54,642 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/
+2023-05-09 11:48:57,624 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /subdir/a.png
+2023-05-09 11:48:57,625 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 11:48:57,682 INFO (GetFileController.java:58)- File /subdir/a.png sent.
+2023-05-09 12:58:23,382 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.2 with PID 59555 (/Users/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /Users/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 12:58:23,386 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 12:58:24,545 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 12:58:24,560 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 12:58:24,561 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 12:58:24,562 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 12:58:24,661 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 12:58:24,663 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1215 ms
+2023-05-09 12:58:24,756 INFO (Settings.java:22)- Root path does not exist, creating it
+2023-05-09 12:58:24,756 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 12:58:25,064 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 12:58:25,089 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 12:58:25,098 INFO (StartupInfoLogger.java:57)- Started App in 2.394 seconds (process running for 2.757)
+2023-05-09 12:59:05,518 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 12:59:05,519 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 12:59:05,520 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 12:59:05,582 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 12:59:49,191 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:01:54,534 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:01:58,544 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /images
+2023-05-09 13:01:58,545 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 13:02:03,562 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:02:06,565 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges
+2023-05-09 13:02:06,575 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 13:02:09,603 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:39:21,232 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:39:23,922 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /images
+2023-05-09 13:39:23,923 WARN (FileManager.java:27)- User tried to access non-existing file
+2023-05-09 13:39:28,940 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges
+2023-05-09 13:39:28,951 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 13:39:33,954 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/img.png
+2023-05-09 13:39:33,955 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 13:39:34,035 INFO (GetFileController.java:58)- File /imges/img.png sent.
+2023-05-09 13:40:32,846 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:40:36,542 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges
+2023-05-09 13:40:36,552 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 13:40:39,551 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/img.png
+2023-05-09 13:40:39,552 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 13:40:39,622 INFO (GetFileController.java:58)- File /imges/img.png sent.
+2023-05-09 13:42:18,024 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:42:21,716 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges
+2023-05-09 13:42:21,725 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 13:42:26,730 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/img.png
+2023-05-09 13:42:26,731 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 13:42:26,799 INFO (GetFileController.java:58)- File /imges/img.png sent.
+2023-05-09 13:42:44,844 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 13:42:46,848 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 13:59:04,055 INFO (LoginController.java:43)- User hsy at 0:0:0:0:0:0:0:1 logged in.
+2023-05-09 14:06:35,218 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/octet-stream' is not supported]
+2023-05-09 14:11:22,462 INFO (LoginController.java:43)- User hsy at 0:0:0:0:0:0:0:1 logged in.
+2023-05-09 14:11:26,546 INFO (LoginController.java:43)- User hsy at 0:0:0:0:0:0:0:1 failed to log in.
+2023-05-09 14:11:29,968 INFO (LoginController.java:43)- User hsy at 0:0:0:0:0:0:0:1 logged in.
+2023-05-09 14:12:29,660 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/octet-stream' is not supported]
+2023-05-09 14:12:33,265 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/octet-stream' is not supported]
+2023-05-09 14:12:50,306 INFO (LoginController.java:43)- User hsy at 0:0:0:0:0:0:0:1 logged in.
+2023-05-09 14:16:06,582 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 14:23:45,138 INFO (LoginController.java:43)- User asdasd at 127.0.0.1 failed to log in.
+2023-05-09 14:23:49,731 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 14:31:57,978 INFO (LoginController.java:43)- User clear at 127.0.0.1 failed to log in.
+2023-05-09 14:32:05,596 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 14:33:33,853 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 14:33:36,863 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges
+2023-05-09 14:33:36,873 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 14:33:50,909 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/img.png
+2023-05-09 14:33:50,909 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 14:33:50,971 INFO (GetFileController.java:58)- File /imges/img.png sent.
+2023-05-09 14:34:14,981 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/img.png
+2023-05-09 14:34:14,982 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 14:34:15,035 INFO (GetFileController.java:58)- File /imges/img.png sent.
+2023-05-09 14:34:26,013 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 14:44:56,217 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.2 with PID 76647 (/Users/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /Users/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 14:44:56,220 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 14:44:57,276 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 14:44:57,290 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 14:44:57,292 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 14:44:57,292 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 14:44:57,391 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 14:44:57,393 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1114 ms
+2023-05-09 14:44:57,493 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 14:44:57,798 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 14:44:57,822 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 14:44:57,831 INFO (StartupInfoLogger.java:57)- Started App in 2.273 seconds (process running for 2.635)
+2023-05-09 14:45:04,564 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 14:45:04,565 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 14:45:04,566 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 14:45:04,664 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 14:45:08,144 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 14:45:18,181 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges
+2023-05-09 14:45:18,191 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 14:45:24,206 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/img.png
+2023-05-09 14:45:24,207 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 14:45:24,317 INFO (GetFileController.java:58)- File /imges/img.png sent.
+2023-05-09 14:46:04,310 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/img.png
+2023-05-09 14:46:04,312 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 14:46:04,388 INFO (GetFileController.java:58)- File /imges/img.png sent.
+2023-05-09 14:46:28,389 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 14:46:31,394 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /a.md
+2023-05-09 14:46:31,394 WARN (FileManager.java:31)- User tried to access file as directory
+2023-05-09 14:46:31,403 INFO (GetFileController.java:58)- File /a.md sent.
+2023-05-09 14:47:22,547 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges
+2023-05-09 14:47:22,556 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /imges/
+2023-05-09 14:47:27,563 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 14:47:32,579 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 17:08:07,123 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 6062 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 17:08:07,126 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 17:08:07,713 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 17:08:07,720 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 17:08:07,721 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 17:08:07,721 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 17:08:07,775 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 17:08:07,776 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 612 ms
+2023-05-09 17:08:07,833 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 17:08:08,022 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 17:08:08,033 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 17:08:08,039 INFO (StartupInfoLogger.java:57)- Started App in 1.28 seconds (process running for 1.499)
+2023-05-09 17:54:50,651 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 16213 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 17:54:50,654 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 17:54:51,236 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 17:54:51,243 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 17:54:51,244 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 17:54:51,244 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 17:54:51,301 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 17:54:51,303 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 610 ms
+2023-05-09 17:54:51,360 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 17:54:51,550 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 17:54:51,561 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 17:54:51,567 INFO (StartupInfoLogger.java:57)- Started App in 1.28 seconds (process running for 1.52)
+2023-05-09 17:55:18,007 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 17:55:18,008 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 17:55:18,009 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 17:55:18,067 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 17:55:23,709 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 17:55:59,711 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 18:00:02,018 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 18:04:51,285 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 18:05:06,015 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 18:11:48,571 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 19612 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-09 18:11:48,575 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-09 18:11:49,129 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-09 18:11:49,136 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-09 18:11:49,137 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-09 18:11:49,138 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-09 18:11:49,197 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-09 18:11:49,198 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 586 ms
+2023-05-09 18:11:49,257 INFO (Settings.java:27)- Load root path success: /tmp/fss
+2023-05-09 18:11:49,448 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-09 18:11:49,459 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-09 18:11:49,466 INFO (StartupInfoLogger.java:57)- Started App in 1.255 seconds (process running for 1.433)
+2023-05-09 18:12:02,470 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 18:12:02,471 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-09 18:12:02,472 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-09 18:12:02,530 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 18:12:27,814 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 18:12:30,617 INFO (FileManager.java:90)- Successfully created file /BUPT_Map合并版.png
+2023-05-09 18:12:33,573 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 18:12:50,588 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /BUPT_Map合并版.png
+2023-05-09 18:12:50,590 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-09 18:12:50,617 WARN (DirectJDKLog.java:175)- The HTTP response header [Content-Disposition] with value [attachment;filename=BUPT_Map合并版.png] has been removed from the response because it is invalid
+java.lang.IllegalArgumentException: The Unicode character [合] at code point [21,512] cannot be encoded as it is outside the permitted range of 0 to 255
+	at org.apache.tomcat.util.buf.MessageBytes.toBytesSimple(MessageBytes.java:286)
+	at org.apache.tomcat.util.buf.MessageBytes.toBytes(MessageBytes.java:255)
+	at org.apache.coyote.http11.Http11OutputBuffer.write(Http11OutputBuffer.java:394)
+	at org.apache.coyote.http11.Http11OutputBuffer.sendHeader(Http11OutputBuffer.java:372)
+	at org.apache.coyote.http11.Http11Processor.prepareResponse(Http11Processor.java:1066)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:381)
+	at org.apache.coyote.Response.action(Response.java:212)
+	at org.apache.coyote.Response.sendHeaders(Response.java:450)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:288)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:269)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at fss_server.controllers.GetFileController.getFile(GetFileController.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-09 18:12:50,808 INFO (GetFileController.java:58)- File /BUPT_Map合并版.png sent.
+2023-05-09 18:15:55,728 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 18:15:57,498 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 18:16:03,496 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /BUPT_Map合并版.png
+2023-05-09 18:16:03,496 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-09 18:16:03,508 WARN (DirectJDKLog.java:175)- The HTTP response header [Content-Disposition] with value [attachment;filename=BUPT_Map合并版.png] has been removed from the response because it is invalid
+java.lang.IllegalArgumentException: The Unicode character [合] at code point [21,512] cannot be encoded as it is outside the permitted range of 0 to 255
+	at org.apache.tomcat.util.buf.MessageBytes.toBytesSimple(MessageBytes.java:286)
+	at org.apache.tomcat.util.buf.MessageBytes.toBytes(MessageBytes.java:255)
+	at org.apache.coyote.http11.Http11OutputBuffer.write(Http11OutputBuffer.java:394)
+	at org.apache.coyote.http11.Http11OutputBuffer.sendHeader(Http11OutputBuffer.java:372)
+	at org.apache.coyote.http11.Http11Processor.prepareResponse(Http11Processor.java:1066)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:381)
+	at org.apache.coyote.Response.action(Response.java:212)
+	at org.apache.coyote.Response.sendHeaders(Response.java:450)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:288)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:269)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at fss_server.controllers.GetFileController.getFile(GetFileController.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-09 18:16:03,682 INFO (GetFileController.java:58)- File /BUPT_Map合并版.png sent.
+2023-05-09 18:16:13,507 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /res.md
+2023-05-09 18:16:13,507 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-09 18:16:13,520 INFO (GetFileController.java:58)- File /res.md sent.
+2023-05-09 18:17:16,870 INFO (LoginController.java:43)- User kjy at 127.0.0.1 logged in.
+2023-05-09 18:17:19,650 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 18:17:25,651 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /BUPT_Map合并版.png
+2023-05-09 18:17:25,653 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-09 18:17:25,676 WARN (DirectJDKLog.java:175)- The HTTP response header [Content-Disposition] with value [attachment;filename=BUPT_Map合并版.png] has been removed from the response because it is invalid
+java.lang.IllegalArgumentException: The Unicode character [合] at code point [21,512] cannot be encoded as it is outside the permitted range of 0 to 255
+	at org.apache.tomcat.util.buf.MessageBytes.toBytesSimple(MessageBytes.java:286)
+	at org.apache.tomcat.util.buf.MessageBytes.toBytes(MessageBytes.java:255)
+	at org.apache.coyote.http11.Http11OutputBuffer.write(Http11OutputBuffer.java:394)
+	at org.apache.coyote.http11.Http11OutputBuffer.sendHeader(Http11OutputBuffer.java:372)
+	at org.apache.coyote.http11.Http11Processor.prepareResponse(Http11Processor.java:1066)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:381)
+	at org.apache.coyote.Response.action(Response.java:212)
+	at org.apache.coyote.Response.sendHeaders(Response.java:450)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:288)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:269)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at fss_server.controllers.GetFileController.getFile(GetFileController.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-09 18:17:25,844 INFO (GetFileController.java:58)- File /BUPT_Map合并版.png sent.
+2023-05-09 18:17:40,665 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /res.md
+2023-05-09 18:17:40,666 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-09 18:17:40,681 INFO (GetFileController.java:58)- File /res.md sent.
+2023-05-09 18:19:11,667 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 18:19:16,670 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /map.png
+2023-05-09 18:19:16,671 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-09 18:19:16,968 INFO (GetFileController.java:58)- File /map.png sent.
+2023-05-09 18:23:04,284 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /
+2023-05-09 18:24:14,056 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /map.png
+2023-05-09 18:24:14,057 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-09 18:24:14,339 INFO (GetFileController.java:58)- File /map.png sent.

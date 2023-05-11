@@ -1,6 +1,7 @@
 package fss_server.controllers;
 
 import java.io.BufferedInputStream;
+import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 
@@ -65,7 +66,7 @@ public class GetFileController {
     }
 
     private String getFileName(String path) {
-        String[] parts = path.split("/");
+        String[] parts = path.split(File.separator);
         return parts[parts.length - 1];
     }
 }
