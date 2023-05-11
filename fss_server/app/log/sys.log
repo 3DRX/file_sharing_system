@@ -36,3 +36,42 @@
 2023-05-11 17:10:35,678 INFO (GetDirController.java:24)- User at 127.0.0.1 requested directory /exp.md
 2023-05-11 17:10:35,680 WARN (FileManager.java:33)- User tried to access file as directory
 2023-05-11 17:10:35,696 INFO (GetFileController.java:59)- File /exp.md sent.
+2023-05-11 20:13:57,131 INFO (StartupInfoLogger.java:51)- Starting App using Java 17.0.6 with PID 25857 (/home/kjy/Documents/file_sharing_system/fss_server/app/build/classes/java/main started by kjy in /home/kjy/Documents/file_sharing_system/fss_server/app)
+2023-05-11 20:13:57,133 INFO (SpringApplication.java:630)- No active profile set, falling back to 1 default profile: "default"
+2023-05-11 20:13:57,705 INFO (TomcatWebServer.java:114)- Tomcat initialized with port(s): 8888 (http)
+2023-05-11 20:13:57,712 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8888"]
+2023-05-11 20:13:57,712 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-05-11 20:13:57,713 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-11 20:13:57,771 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-05-11 20:13:57,772 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 603 ms
+2023-05-11 20:13:57,831 INFO (Settings.java:29)- Load root path success: /tmp/fss
+2023-05-11 20:13:58,021 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8888"]
+2023-05-11 20:13:58,032 INFO (TomcatWebServer.java:226)- Tomcat started on port(s): 8888 (http) with context path ''
+2023-05-11 20:13:58,039 INFO (StartupInfoLogger.java:57)- Started App in 1.279 seconds (process running for 1.488)
+2023-05-11 20:16:42,627 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-11 20:16:42,627 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-05-11 20:16:42,628 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-05-11 20:16:42,687 INFO (LoginController.java:43)- User kjy at 10.128.165.11 logged in.
+2023-05-11 20:16:47,272 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /
+2023-05-11 20:17:14,805 INFO (LoginController.java:43)- User kjy at 10.128.203.49 logged in.
+2023-05-11 20:17:16,438 INFO (GetDirController.java:24)- User at 10.128.203.49 requested directory /
+2023-05-11 20:17:26,519 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /a
+2023-05-11 20:17:26,549 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /a/
+2023-05-11 20:17:31,573 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /a/b
+2023-05-11 20:17:31,591 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /a/b/
+2023-05-11 20:17:35,577 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /a/
+2023-05-11 20:17:38,592 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /
+2023-05-11 20:17:43,671 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /a
+2023-05-11 20:17:43,723 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /a/
+2023-05-11 20:17:51,679 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /
+2023-05-11 20:17:58,745 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /fss.mp4
+2023-05-11 20:17:58,746 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-11 20:17:59,341 INFO (GetFileController.java:59)- File /fss.mp4 sent.
+2023-05-11 20:22:36,414 INFO (FileManager.java:90)- Successfully created file /rua!.jpg
+2023-05-11 20:22:42,455 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /
+2023-05-11 20:31:42,571 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /
+2023-05-11 20:31:51,644 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /fwb.mp4
+2023-05-11 20:31:51,646 WARN (FileManager.java:33)- User tried to access file as directory
+2023-05-11 20:31:54,943 INFO (GetFileController.java:59)- File /fwb.mp4 sent.
+2023-05-11 20:48:03,737 INFO (FileManager.java:90)- Successfully created file /A_Kiss_for_the_Petals.rar
+2023-05-11 20:49:00,652 INFO (GetDirController.java:24)- User at 10.128.165.11 requested directory /
