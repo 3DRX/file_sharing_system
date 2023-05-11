@@ -1,7 +1,7 @@
 {
-    "root": "/home/kjy/Desktop/",
+    "root": "/Users/kjy/Desktop",
     "server": {
-        "host": "127.0.0.1",
+        "host": "10.128.185.201",
         "port": 8888
     }
 }
