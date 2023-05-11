@@ -55,6 +55,14 @@ public class App {
             case "help", "h":
                 printHelp();
                 return true;
+            case "whoami":
+                if (loggedUser == null) {
+                    System.out.println("You are not logged in");
+                    return false;
+                } else {
+                    System.out.println("You are logged in as " + loggedUser.name());
+                }
+                return true;
             case "logout":
                 loggedUser = null;
                 System.out.println("Logged out");
@@ -104,6 +112,7 @@ public class App {
     private static void printHelp() {
         System.out.println("Available commands:");
         System.out.println("  help, h          - print this help");
+        System.out.println("  whoami           - print current user");
         System.out.println("  logout           - logout from the server");
         System.out.println("  clear            - clear the screen");
         System.out.println("  exit             - exit the program");
