@@ -33,17 +33,20 @@ public class App {
             password = scanner.nextLine();
         }
         user = new User(username, password);
-        if (fileManager.login(user)
-                || (username.equals("anonymous")
-                        && password.equals(""))) {
+        if (fileManager.login(user)) {
             System.out.println("Login successful");
+            if (username.equals("anonymous")) {
+                System.out.println("You are logged in as anonymous");
+            } else {
+                System.out.println("You are logged in as " + username);
+            }
             loggedUser = user;
             return true;
         } else {
             System.out.println("Login failed");
             loggedUser = null;
+            return false;
         }
-        return false;
     }
 
     private static boolean handleCommand(String command) {

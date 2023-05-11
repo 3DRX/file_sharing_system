@@ -40,8 +40,8 @@ public class FileManager {
             return response.body().equals("true");
         } catch (Exception e) {
             System.out.println("Server is not responding");
+            return false;
         }
-        return false;
     }
 
     public void dir() {
