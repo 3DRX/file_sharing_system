@@ -12,15 +12,24 @@ import java.net.http.HttpResponse;
 
 import com.google.gson.GsonBuilder;
 
+/**
+ * The FileManager class is responsible for handling all the
+ * request fetching file and other information from server.
+ */
 public class FileManager {
+    // current working directory on server
     private String pwd = "/";
+    // server host and port read from settings.json
     private final String host = App.settings.getHost();
     private final int port = App.settings.getPort();
 
     public FileManager() {
     }
 
-    // login
+    /**
+     * @param user trying to login
+     * @return if login is successful
+     */
     public boolean login(User user) {
         String path = "/login";
         HttpClient client = HttpClient.newHttpClient();
@@ -44,6 +53,10 @@ public class FileManager {
         }
     }
 
+    /**
+     * fetch directory information of {@link #pwd} from server
+     * via {@link #getDir(String)}
+     */
     public void dir() {
         String res = "";
         try {
@@ -55,7 +68,15 @@ public class FileManager {
         System.out.println(res);
     }
 
-    public String getDir(String filePath)
+    /**
+     * fetch file information from server
+     * 
+     * @param filePath
+     * @return directory information of filePath
+     * @throws InterruptedException
+     * @throws IOException
+     */
+    private String getDir(String filePath)
             throws InterruptedException, IOException {
         String path = "/getDir";
         HttpClient client = HttpClient.newHttpClient();
@@ -68,10 +89,18 @@ public class FileManager {
         return response.body();
     }
 
+    /**
+     * get {@link #pwd}
+     */
     public void pwd() {
         System.out.println(pwd);
     }
 
+    /**
+     * change {@link #pwd}
+     * 
+     * @param path relative path to {@link #pwd}
+     */
     public void cd(String path) {
         path = trimSlash(path);
         if (path.equals(".")) {
@@ -111,6 +140,10 @@ public class FileManager {
         }
     }
 
+    /**
+     * @param path
+     * @return
+     */
     private String trimSlash(String path) {
         if (path.endsWith("/")) {
             path = path.substring(0, path.length() - 1);
@@ -118,6 +151,12 @@ public class FileManager {
         return path;
     }
 
+    /**
+     * Generate full path of file and call {@link #getFile(String)}
+     * to fetch the file from server
+     * 
+     * @param path of file to get
+     */
     public void get(String path) {
         String fullPath = path;
         if (path.charAt(0) == '/') {
@@ -136,6 +175,11 @@ public class FileManager {
         System.out.println("downloaded " + fullPath);
     }
 
+    /**
+     * fetch file at fullPath from server
+     * 
+     * @param fullPath
+     */
     private void getFile(String fullPath) {
         String path = "getFile";
         HttpClient client = HttpClient.newHttpClient();
@@ -179,6 +223,10 @@ public class FileManager {
         }
     }
 
+    /**
+     * @param fullPath
+     * @return
+     */
     private boolean isFile(String fullPath) {
         try {
             String res = getDir(fullPath);
@@ -192,6 +240,11 @@ public class FileManager {
         }
     }
 
+    /**
+     * call {@link #putFile(File)} to upload file to server
+     * 
+     * @param path of file to put on local system
+     */
     public void put(String path) {
         if (App.loggedUser.name().equals("anonymous")) {
             System.out.println("error: permission denied");
@@ -209,6 +262,9 @@ public class FileManager {
         putFile(file);
     }
 
+    /**
+     * @param file to upload
+     */
     private void putFile(File file) {
         String pathOnServer = pwd + file.getName();
         System.out.println("uploading " + file.getName() + "to " + pathOnServer + ":");

@@ -11,6 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 import fss_server.file_access.FileManager;
 import jakarta.servlet.http.HttpServletRequest;
 
+/**
+ * GetDirController
+ * provide feature of cd and ls command
+ */
 @RestController
 @CrossOrigin
 public class GetDirController {

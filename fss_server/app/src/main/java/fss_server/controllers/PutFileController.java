@@ -2,8 +2,6 @@ package fss_server.controllers;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.InputStream;
 
 import fss_server.file_access.FileManager;
@@ -16,6 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import jakarta.servlet.http.HttpServletRequest;
 
+/**
+ * PutFileController
+ * provide feature of put command
+ */
 @RestController
 @CrossOrigin
 public class PutFileController {

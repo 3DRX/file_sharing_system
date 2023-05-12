@@ -7,18 +7,31 @@ import com.google.common.net.InetAddresses;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 
+/**
+ * The Settings class is responsible for loading settings from
+ * settings.json file.
+ */
 public class Settings {
     private String root;
     private ServerConfig server;
 
+    /**
+     * @return root directory of client
+     */
     public String getRoot() {
         return root;
     }
 
+    /**
+     * @return server host
+     */
     public String getHost() {
         return server.host();
     }
 
+    /**
+     * @return server port
+     */
     public int getPort() {
         return server.port();
     }
@@ -28,6 +41,9 @@ public class Settings {
         this.server = server;
     }
 
+    /**
+     * @return settings loaded from settings.json
+     */
     public static Settings loadSettings() {
         System.out.println("======================");
         String path = "src/main/resources/settings.json";

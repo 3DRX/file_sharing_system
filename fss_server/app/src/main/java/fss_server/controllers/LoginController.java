@@ -12,6 +12,10 @@ import fss_server.entities.User;
 import fss_server.file_access.UserData;
 import jakarta.servlet.http.HttpServletRequest;
 
+/**
+ * LoginController
+ * provide feature for login validation
+ */
 @RestController
 @CrossOrigin
 public class LoginController {

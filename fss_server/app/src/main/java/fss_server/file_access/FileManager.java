@@ -8,15 +8,27 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 
+/**
+ * This class is responsible for all file operations.
+ */
 public class FileManager {
+    // logger
     private final Logger logger = LoggerFactory.getLogger(FileManager.class);
 
+    // root directory on server
     private String root;
 
+    /**
+     * @param root root directory on server
+     */
     public FileManager(File root) {
         this.root = root.getAbsolutePath() + File.separator;
     }
 
+    /**
+     * @param pwd path to directory
+     * @return directory listing
+     */
     public String dir(String pwd) {
         String fullPwd = this.root + pwd;
         if (!fullPwd.startsWith(this.root)) {
@@ -51,6 +63,10 @@ public class FileManager {
         return sb.toString();
     }
 
+    /**
+     * @param filepath path to file on server
+     * @return BufferedInputStream of file
+     */
     public BufferedInputStream streamedFile(String filepath) {
         String fullpath = this.root + filepath;
         File file = new File(fullpath);
@@ -64,6 +80,10 @@ public class FileManager {
         return bis;
     }
 
+    /**
+     * @param is          InputStream of file
+     * @param newFileName name of new file
+     */
     public void put(InputStream is, String newFileName) {
         File file = new File(this.root + newFileName);
         if (file.exists()) {

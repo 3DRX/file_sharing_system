@@ -16,6 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 import fss_server.file_access.FileManager;
 import jakarta.servlet.http.HttpServletResponse;
 
+/**
+ * GetFileController
+ * provide feature of get command
+ */
 @RestController
 @CrossOrigin
 public class GetFileController {
