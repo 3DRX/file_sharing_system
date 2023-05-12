@@ -59,7 +59,7 @@ Ubuntu 22.04 LTS
     - `cd ./fss_server/`
     - `./gradlew bootRun`
 ```
-❯ ./gradlew bootRun
+> ./gradlew bootRun
 Path for java installation '/usr/lib/jvm/openjdk-17' (Common Linux Locations) does not contain a java executable
 
 > Task :app:bootRun
@@ -91,7 +91,7 @@ Path for java installation '/usr/lib/jvm/openjdk-17' (Common Linux Locations) do
     - `cd ./fss_client/`
     - `gradle run --console=plain`
 ```
-❯ ./gradlew run --console=plain
+> ./gradlew run --console=plain
 ======================
 Root path does not exist, creating it
 Settings loaded:
@@ -110,12 +110,12 @@ Enter username:
 
 - `App`
 - `FileManager`  
-    The FileManager class is responsible for handling all the request fetching file and other information from server.
+    The FileManager class is responsible for handling all the request fetching file and other information from server.  
     ![fm](./README.assets/fmclient.png)
 - `Settings`  
-    The Settings class is responsible for loading settings from settings.json file.
+    The Settings class is responsible for loading settings from settings.json file.  
     ![set](./README.assets/setclient.png)
-- `User`
+- `User`  
     ![usr](./README.assets/usrclient.png)
 
 ### 服务端
@@ -125,28 +125,28 @@ Enter username:
     - `FileConfig`
 - controllers
     - `GetDirController`  
-    GetDirController provide feature of cd and ls command
+    GetDirController provide feature of cd and ls command  
     ![gdc](./README.assets/getdircontroller.png)
     - `GetFileController`  
-    GetFileController provide feature of get command
+    GetFileController provide feature of get command  
     ![gfc](./README.assets/getfilecontroller.png)
     - `LoginController`  
-    LoginController provide feature for login validation
+    LoginController provide feature for login validation  
     ![login](./README.assets/login.png)
     - `PutFileController`  
-    PutFileController provide feature of put command
+    PutFileController provide feature of put command  
     ![putfile](./README.assets/putfile.png)
 - entities
     - `User`  
     ![usr](./README.assets/user.png)
 - file_access
     - `FileManager`  
-    This class is responsible for all file operations.
+    This class is responsible for all file operations.  
     ![serverfm](./README.assets/serverfm.png)
     - `Settings`  
-    This class is responsible for reading the settings file.
+    This class is responsible for reading the settings file.  
     ![serverset](./README.assets/serverset.png)
     - `UserData`  
-    This class is responsible for reading and writing the users file.
+    This class is responsible for reading and writing the users file.  
     ![serveruserdata](./README.assets/serveruserdata.png)
 
