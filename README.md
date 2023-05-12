@@ -61,3 +61,7 @@ Ubuntu 22.04
     - `cd ./fss_client`
     - `gradle run --console=plain`
 
+## Deatils
+
+[javadoc](https://fss-doc.vercel.app/)
+
