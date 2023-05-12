@@ -11,11 +11,18 @@ import com.google.gson.stream.JsonReader;
 
 import fss_server.entities.User;
 
+/**
+ * This class is responsible for reading and writing the users file.
+ */
 public class UserData {
     final private String path = "src/main/resources/users.json";
     final private Gson gson = new GsonBuilder().setPrettyPrinting().create();
+    // array of users
     private User[] jsonUsers;
 
+    /**
+     * Read users file.
+     */
     public UserData() {
         this.jsonUsers = readUsers();
     }
@@ -31,10 +38,16 @@ public class UserData {
         return read_users;
     }
 
+    /**
+     * @return array of users
+     */
     public User[] getUserData() {
         return this.jsonUsers;
     }
 
+    /**
+     * @param user user to add
+     */
     public void addUser(User user) {
         this.jsonUsers = Arrays.copyOf(this.jsonUsers, this.jsonUsers.length + 1);
         this.jsonUsers[this.jsonUsers.length - 1] = user;

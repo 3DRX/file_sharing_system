@@ -9,12 +9,18 @@ import org.slf4j.LoggerFactory;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 
+/**
+ * This class is responsible for reading the settings file.
+ */
 public class Settings {
     final private String path = "src/main/resources/settings.json";
     private settingsRecord settings;
     private File root;
     private final Logger logger = LoggerFactory.getLogger(Settings.class);
 
+    /**
+     * Read settings file and create root directory if needed.
+     */
     public Settings() {
         this.settings = readSettings();
         final File folder = new File(this.settings.root());
@@ -40,6 +46,9 @@ public class Settings {
         return res;
     }
 
+    /**
+     * @return root directory
+     */
     public File getRoot() {
         return this.root;
     }
